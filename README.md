@@ -16,3 +16,15 @@ You'll be provided with a helpers class that contains all the SQL transformation
 
 ![Example DAG](example-dag.png)
 
+# Datasets 
+For this project, you'll be working with two datasets. Here are the s3 links for each:
+* Log data: s3://udacity-dend/log_data
+* Song data: s3://udacity-dend/song_data
+
+# Files
+
+[DAG](https://github.com/ricardoues/data_pipelines_airflow/blob/master/workspace/home/airflow/dags/udac_example_dag.py)
+
+[The operators folder](https://github.com/ricardoues/data_pipelines_airflow/tree/master/workspace/home/airflow/plugins/operators)
+
+[Helper class](https://github.com/ricardoues/data_pipelines_airflow/blob/master/workspace/home/airflow/plugins/helpers/sql_queries.py)
